@@ -9,14 +9,14 @@ build/
 *.local
 *.swp
 
-# Go server (e.g., /backend)
-backend/bin/
-backend/vendor/
-backend/.env
-backend/.air.toml
-backend/go.sum
-backend/go.work
-backend/.DS_Store
+# Go server (e.g., /server-crawler)
+server-crawler/bin/
+server-crawler/vendor/
+server-crawler/.env
+server-crawler/.air.toml
+server-crawler/go.sum
+server-crawler/go.work
+server-crawler/.DS_Store
 
 # Go build outputs
 *.exe
@@ -27,12 +27,12 @@ backend/.DS_Store
 .idea/
 *.iml
 
-# Vite + React frontend (e.g., /frontend)
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.DS_Store
-frontend/.vitepress/cache/
+# Vite + React frontend (e.g., /client-crawler)
+client-crawler/node_modules/
+client-crawler/dist/
+client-crawler/.env
+client-crawler/.DS_Store
+client-crawler/.vitepress/cache/
 
 # OS-specific
 Thumbs.db
