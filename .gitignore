@@ -1,0 +1,38 @@
+# Root-level
+.env
+.DS_Store
+node_modules/
+dist/
+build/
+.vscode/
+*.log
+*.local
+*.swp
+
+# Go server (e.g., /backend)
+backend/bin/
+backend/vendor/
+backend/.env
+backend/.air.toml
+backend/go.sum
+backend/go.work
+backend/.DS_Store
+
+# Go build outputs
+*.exe
+*.test
+*.out
+
+# IDE settings
+.idea/
+*.iml
+
+# Vite + React frontend (e.g., /frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+frontend/.vitepress/cache/
+
+# OS-specific
+Thumbs.db
